@@ -1,0 +1,21 @@
+# ../inst/*/bin/lu_cb -p 4ncpus -n512
+../inst/*/bin/lu_cb -p 4ncpus -n512
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     4 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0        642232           177          7773        278968        355306
+
+                            TIMING INFORMATION
+Start time                        :       3520390127
+Initialization finish time        :       3520463937
+Overall finish time               :       3521106205
+Total time with initialization    :           716078
+Total time without initialization :           642268
+

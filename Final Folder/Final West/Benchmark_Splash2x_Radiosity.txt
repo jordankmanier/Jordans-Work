@@ -1,0 +1,118 @@
+# ../inst/*/bin/radiosity -bf 1.5e-1 -batch -room -p 2ncpus
+../inst/*/bin/radiosity -bf 1.5e-1 -batch -room -p 2ncpus
+
+
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+	Overall start time	          2756223628
+	Overall end time	          2759261917
+	Total time with initialization	             3038289
+	Total time without initialization	             3038277
+Rasiosity Statistics
+
+    Histogram of interactions/elem
+	 Interactions  Occurrence
+	 -------------------------------
+	 (Over 100)      167 (126948.445313)
+	    100          4 (5893.182617)
+	    98          7 (2582.448486)
+	    97          4 (1270.746704)
+	    96          5 (1352.056885)
+	    94          1 (3587.564209)
+	    93          2 (14909.566406)
+	    92          1 (71999.750000)
+	    91          3 (8910.075195)
+	    90          4 (23961.669922)
+	    88          2 (9905.674805)
+	    87          2 (25459.429688)
+	    86          4 (2229.372314)
+	    85          1 (2333.920654)
+	    84          6 (3927.763916)
+	    82          6 (54895.386719)
+	    81          3 (7623.573730)
+	    79          2 (1787.085815)
+	    77          2 (1345.461182)
+	    75          5 (33336.179688)
+	    74          1 (6762.268555)
+	    73          1 (8949.666992)
+	    72          3 (8938.790039)
+	    71          2 (18601.226563)
+	    70          2 (6050.948730)
+	    69          3 (16201.109375)
+	    65          3 (15025.793945)
+	    64          3 (15626.561523)
+	    63          3 (7782.450684)
+	    62          3 (24158.181641)
+	    60          1 (22372.632813)
+	    59          4 (8072.653320)
+	    58          1 (22680.052734)
+	    57          4 (3139.145508)
+	    53          1 (22680.052734)
+	    52          2 (8099.991699)
+	    48          1 (21323.609375)
+	    46          1 (71999.750000)
+	    45          2 (54190.460938)
+	    44          4 (67961.914063)
+	    41          4 (4987.302246)
+	    37          3 (15079.329102)
+	    36          1 (5919.844727)
+	    35          7 (2842.523682)
+	    33          1 (1351.943848)
+	    32          1 (3889.380859)
+	    28          8 (27620.326172)
+	    27          2 (14858.612305)
+	    26          1 (3889.380859)
+	    24          2 (3174.555664)
+	    22          4 (2572.663574)
+	    21          5 (10896.177734)
+	    20          2 (666.647156)
+	    16          13 (1146.694336)
+	    15          1 (14858.602539)
+	    14          1 (127359.734375)
+	    13          13 (1340.716675)
+	    12          21 (4885.886230)
+	    11          1 (127359.734375)
+	    10          48 (2522.204834)
+	    9          6 (1274.658081)
+	    8          233 (1334.085083)
+	    7          9 (51203.246094)
+	    6          8 (57262.550781)
+	    5          86 (9508.541992)
+	    4          146 (23797.910156)
+	    3          43 (29007.894531)
+	    2          325 (11785.332031)
+	    1          304 (19806.607422)
+	    0          313 (40785.511719)
+    Configurations
+	Patch assignment: Static equal number
+	Always inserting at top of list for visibility testing (not sorted)
+	Recursive pruning enabled for BSP tree traversal
+	Patch cache:      Enabled
+	Always check all other queues when task stealing (not neighbor scheme)
+    Parameters
+	Number of processors:    2
+	Number of task queues:   2
+	Number of tasks / queue: 200
+	Area epsilon:            2000.000000
+	#inter parallel refine:  5
+	#visibility comp / task: 4
+	BF epsilon:              0.150000
+	Energy convergence:      0.000050
+    Iterations to converge:   11 times
+    Resource Usage
+	Number of patches:            364
+	Total number of elements:     1888
+	Total number of interactions: 40303
+	          completely visible: 6648
+	        completely invisible: 13021
+	           partially visible: 20634
+	Interaction coherence (root interaction not counted)
+	       Common for 4 siblings: 2368
+	       Common for 3 siblings: 1320
+	       Common for 2 siblings: 574
+	       Common for no sibling: 507
+	Avg. elements per patch:      5.2
+	Avg. interactions per patch:  110.7
+	Avg. interactions per element:21.3
+	Number of elements in equivalent uniform mesh: 5755
+	Elem(hierarchical)/Elem(uniform): 32.81%
